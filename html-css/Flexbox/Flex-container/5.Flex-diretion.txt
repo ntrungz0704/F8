@@ -1,0 +1,5 @@
+flex-direction: row;
+=> rox giá trị mặc định xoay theo chiều ngAng
+=> column sẽ xoay theo chiều dọc
+
+MUỐN Đảo vị trí thì thêm -reverse

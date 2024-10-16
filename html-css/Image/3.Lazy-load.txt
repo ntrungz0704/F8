@@ -1,0 +1,11 @@
+Tăng tốc độ tải trang, giảm băng thông giảm chi phí lưu trữ
+<img
+      loading="lazy"
+      src="https://instagram.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/428659737_18019692557087282_101099289861643436_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYzMDgwOCJ9&_nc_ht=instagram.fsgn5-9.fna.fbcdn.net&_nc_cat=102&_nc_ohc=xRMPGdOBCckQ7kNvgF85gsr&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMwNTgyODQ2NDYxNTU4MjQxOA%3D%3D.2-ccb7-5&oh=00_AYB4EoFMhN6neL26Wz-L96E_VY3mW8BDr40UIFBekDCfTQ&oe=66BB59FC&_nc_sid=8f1549"
+      alt="ảnh gái xinh"
+    />
+
+thêm thuộc tính loading="lazy" vào trong thẻ img
+
+chỉ dùng loading="lazy" khi mà hình ảnh nằm khá xa nội dung và chỉ khi user
+kéo thanh cuộn xuống thì mới nên dùng

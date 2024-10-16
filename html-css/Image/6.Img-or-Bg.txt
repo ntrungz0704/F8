@@ -1,0 +1,15 @@
+<img>
++ là 1 phần của nội dung
++ hỗ trợ in trang kèm hình ảnh
++ muốn google index hình ảnh
++ tối ưu web accessbility
+
+<background-image>
++ h/a mang tính trang trí
++ ko muốn đưa vào bản in
++ ko index hình ảnh trên google
++ css sprites, repeat image
+
+Google index: nghĩa là được thêm vào csdl kho lưu trữ của google khi bạn tìm kiếm
+chữ nội dung có thể sẽ hiển thị hình ảnh
+Khi muốn tối ưu với công cụ tìm kiếm của Google => img thuộc tính alt"nội dung"

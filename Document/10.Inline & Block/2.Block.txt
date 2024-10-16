@@ -1,0 +1,5 @@
+Đặc tính Block:
+- Dùng để phân tách các khối, có chiều ngang mặc định thừa kế 100% thẻ cha
+mà nó nằm bên trong
+- Luôn bắt đầu trên 1 dòng mới, sẽ tự động thêm khoảng margin trên dưới
+

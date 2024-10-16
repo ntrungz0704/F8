@@ -1,0 +1,4 @@
+* Thẻ block KO BAO GIỜ được nằm trong thẻ inline vì nó vi phạm quy tắc HMTL
+
+CÓ 1 TH ngoại lệ
+thẻ <a> là thẻ inline ( có thể nằm ngoài thẻ block ) 

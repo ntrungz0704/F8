@@ -1,0 +1,9 @@
+1) inset: bóng đổ vào bên trong
+box-shadow: inset 10px 10px rgba(0, 0, 0, 0.5);
+thay vì đổ ra ngoài thì nó đổ vÀo Bên tRong
+
+2) mutiple shadow: nhiều bóng đổ
+muốn đổ được nhiều bóng đổ cùng lúc cho 1 Element
+ta chỉ việc thêm dấu , sau giá trị x và y
+box-shadow: 10px 10px 10px green, 20px 20px 10px blue;
+đó sau dấu , thì sẽ là bóng đổ thứ 2

@@ -1,0 +1,13 @@
+Background-Origin ( thuộc tính gốc của ảnh nền )
+=> Đặt gốc của ảnh nền sẽ được bắt đầu từ phần nào.
+Có 3 thuộc tính
++ padding-box (default) : nghĩa là ảnh nền sẽ được hiển thị từ padding
++ border-box : nghĩa là ảnh nền sẽ được hiển thị từ border
++ content-box : nghĩa là ảnh nền sẽ được hiển thị từ content
+=> Sẽ ảnh hưởng đến thuộc tính position nghĩa là sẽ bị phụ thuộc
+và lưu ý ko dùng 2 thuộc tính này cùng lúc 
+1. background-origin: ;
+2. background-attachment: fixed;
+
+Chính xác! Thuộc tính background-origin chỉ có tác dụng với ảnh nền, 
+trong khi background-clip có tác dụng với cả ảnh nền và màu nền.

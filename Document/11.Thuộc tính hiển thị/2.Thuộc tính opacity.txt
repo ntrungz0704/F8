@@ -1,0 +1,10 @@
+* 0.0 - 1.0
+* 0% - 100%
+
+Hiển thị độ mờ, và nhìn xuyên thấu của elements
+
+Ví dụ:
+opacity: 0;
+
+- THì elements chỉ bị ẩn đi thôi còn KO GIAN hiển thị vẫn còn
+- vẫn tương tác được với elements mặc dù đã bị mờ đi rồi

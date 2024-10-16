@@ -1,0 +1,22 @@
+flex-grow: tăng kích thước
+flex-shrink: giúp items ko vượt quá container
+flex-basis: xÁc định kích thước
+
+
+flex-basis: dùng xác định KÍCH THƯỚC CỦA 1 flex-items:
+Giá trị mặc định : auto;
+==> thuộc tính này sẽ xem coi items đó đã có giá trị width or height hay chưa nếu có rồi thì nó
+sẽ gán vào flex-basis
+Và ta cũng có thể gán giá trị trực tiếp cho flex-basis: 200px;
+
+flex-grow: dùng để làm tăng kích thước item theo trục main bắt đầu từ kích thước flex-basis
+==> kiểu như là khi mà ko gian dư có khoảng trống thì khi gán flex-grow với giá trị là 1
+thì nó sẽ chiếm toàn bộ ko gian còn dư
+===> còn nếu ta gán chung cho toàn bộ flex-items có thuộc tính là flex-grow với giá trị là 1
+thì tất cả chúng sẽ chiếm và chia đều toàn bộ flex-container
+
+flex-shrink: chỉ khả DỤNG khi phần container có các items vượt quá ko gian cho phép
+
+
+CÚ pháp viết tắt:
+flex: grow shrink basis;

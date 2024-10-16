@@ -1,0 +1,20 @@
+#DOCTYPE
+#HTML
+#HEAD
+#BODY
+
+Nên đặt tên file là index.html
+
+<!DOCTYPE html> 1
+<html lang="en"> 2
+<head> 3
+  <!-- Các thẻ meta ở đây -->
+</head>
+<body> 4
+  <!-- Nội dung trang web ở đây -->
+</body>
+</html>
+
+
+=> Khuyến nghị dùng thuộc tính "lang" trong <html> nhằm để trình đọc screen
+hiểu được ngôn ngữ của web dành cho người khiếm thị

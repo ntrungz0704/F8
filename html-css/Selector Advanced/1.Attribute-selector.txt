@@ -1,0 +1,16 @@
+Cách sử dụng:
+[attribute_name] {
+	property: value;
+}
+
+Ví dụ
+<a href="">Link 1</a>
+<a href="">Link 2</a>
+<a href="">Link 3</a>
+
+[href] {
+  color: red;
+  font-size: 32px;
+}
+
+thì các thẻ a có thuộc tính là href sẽ có màu red và font-size 32px

@@ -1,0 +1,4 @@
+Thuộc tính order
+Cách sử dụng
+order: number;
+===> dùng để thay đổi vị trí các ELE khi ko đc chỉnh sửa file HTML

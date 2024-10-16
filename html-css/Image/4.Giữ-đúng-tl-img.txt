@@ -1,0 +1,13 @@
+Nếu muốn giữ đúng tỉ lệ cho img
+thường được sử dụng nhiều: width: 100%;
+hoặc ví dụ bạn làm ra trang web có chữ và hình xen kẽ nhau
+bạn có thể đặt width và height cho hình ảnh đó vì có thể lúc tải trang img bị lỗi chưa 
+hiển thị thì vẫn có chiều cao đó giữ khoảng cách của chữ và hình xa nhau và ko bị nháy sáng
+và bạn luôn muốn hình nó nằm ở trong ở giữa
+thì => object-fit: cover;
+thì dùng thuộc tính đó img sẽ ở giữa đều 4 hướng
+nhưng sẽ bị mất vài chỗ nhỏ nếu ảnh quá TO
+và bạn luôn muốn hiển thị ảnh đầy đủ ko mất chi tiết của img
+thì => object-fit: contain;
+thì dùng thuộc tính đó img sẽ hiển thị kích thước đúng như bạn mong muốn và img ko bị mất 1 chi
+tiết nào nhưng 2 bên trên dưới trái phải có thể bị thiếu và KO LẮP ĐẦY ĐƯỢC KHOẢNG TRỐNG

@@ -1,0 +1,15 @@
+#Thẻ meta
+#Thẻ meta charset
+#Thẻ meta title
+#Thẻ meta viewport
+#Thẻ meta Open Graph
+
+=> Thẻ meta nằm trong thẻ <head> </head>
+
+Thẻ meta là gì ?
+- là 1 thẻ tự đóng <meta />
++ Chỉ định bảng mã ký tự cho web
++ Cung cấp mô tả web cho ccu tìm kiếm
++ Chỉ định cách hiển thị trên nhiều thiết bị(PC, tablet, mobile)
++ Cung cấp thông tin của trang web cho trình thu thập dữ liệu social network
+

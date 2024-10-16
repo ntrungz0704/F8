@@ -1,0 +1,18 @@
+2 thuộc tính phổ biến thường được sử dụng
+Dùng để chèn nội dung vào phần tử before or after
+
+element::pseudo {
+  content: "";
+}
+
+=> Đó là ví dụ
+.box::before {
+  content: "Nội dung phía trước";
+}
+
+.box::after {
+  content: "Nội dung phía sau";
+}
+
+Mặc định 2 pseudo đó có display: inline;
+Và nếu ra muốn tạo hình dạng gì đó thay làm gì khác thì ko cần phải thêm ndung trong phần content

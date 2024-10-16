@@ -1,0 +1,4 @@
+Cách làm chữ chuyển màu
+2 kiến thức chính
+background-image: linear-gradient( giá trị )
+background-clip: giá trị là [text]

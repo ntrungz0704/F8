@@ -1,0 +1,6 @@
+Cách Image to Base64
+1) vào trang web https://codebeautify.org/image-to-base64-converter
+2) upload image sau đó chỉ việc copy code và dán lên code của bạn
+lưu ý : nhớ kiểm tra xem
+base64 sẽ luôn có đoạn mã này trong khai báo
+<img src'data:image/gif;base64,... alt="">

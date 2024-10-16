@@ -1,0 +1,10 @@
+# Thẻ code
+- Được sử dụng để thể hiện các đoạn CODE trong nội dung trang web
+
+Cách sử dụng
+- Thể hiện code trong 1 đoạn văn
+- Thể hiện 1 khối code ĐỘC lập
+
+Link :
++ https://codebeautify.org/html-escape-unescape
++ https://www.freeformatter.com/html-escape.html

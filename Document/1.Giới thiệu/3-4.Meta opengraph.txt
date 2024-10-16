@@ -1,0 +1,6 @@
+#Thẻ meta open graph ( og )
+
+- đây là thẻ được trình thu thập dlieu của các trang web nhằm phục vụ cho
+việc hiển thị khi trang web được share lên social network ( Facebook )
+
+- đều có thuộc tính property & content

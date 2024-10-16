@@ -1,0 +1,7 @@
+Dùng để quyết định mở ở hiện tại or trang mới
+
+Có 2 giá trị
++ target="_self" or ko sdung target thì nó sẽ mở ở web hiện tại
++ target="_blank" mở sang 1 trang web khác
+
+=> Chỉ sdung target="_blank" khi mở 1 trang web khác web tên miền

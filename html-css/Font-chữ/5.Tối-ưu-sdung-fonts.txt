@@ -1,0 +1,16 @@
+text-rendering: tối ưu việc hiển thị văn bản trên trang web
+có 2 giá trị thường được sử dụng:
++ optimizeSpeed: càng nhanh càng tốt có thể hiển thị ra chưa được chính xác 100%
++ optimizeLegibility:  hiển thị fonts chữ chính xác ngược ở trên
+mặc định: auto
+
+=> nếu nhiều hình ảnh ít chữ thì sử dụng optimizeSpeed;
+=> nếu nhiều chữ thì dùng optimizeLegibility
+
+
+
+font-smooth:
++ -webkit-font-smoothing: antialiased; có nghĩa là khử răng cưa của chữ
+=> hỗ trợ Macos và 1 số webkit
++ -moz-osx-font-smoothing: grayscale; ý nghĩa tương tự là khử răng cưa
+=> có thể dùng 2 cái cùng lúc nhé

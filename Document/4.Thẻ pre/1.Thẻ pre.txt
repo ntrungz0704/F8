@@ -1,0 +1,15 @@
+# Thẻ <pre> (preformatted - định dạng sẵn)
+- dùng để giữ nguyên văn bản, ngắt dòng, tab và các ký tự định dạng khác
+- font chữ có độ rộng cố định, nhưng có thể thay đổi = CSS
+
+TH sử dụng
+- khi soạn thảo thơ văn, code, nên dùng kèm thẻ <code>
+
+Ví dụ
+<pre>
+<code>Nội dung bên trong</code>
+</pre>
+
+Link hỗ trợ:
++ https://codebeautify.org/html-escape-unescape
++ https://www.freeformatter.com/html-escape.html

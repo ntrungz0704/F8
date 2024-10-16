@@ -1,0 +1,31 @@
+1. Flow Layout (bố cục luồng | luồng bình thường)
+2. Positioned (được định vị)
++ top
++ right
++ bottom
++ left
+
+Position
+-1 static(default): 1 (không bị ảnh hưởng bởi các giá trị: top, right, bottom, left).
+
+-2 relative: 1,2 định vị theo vị trí ban đầu
+nhược điểm là: vị trí ban đầu của element đó vẫn được chiếm dụng và các elements ở dưới
+ko chiếm vào vị trí đó được.
+=> position: relative thì phần tử sẽ có vị trí tương đối.
+
+-3 absolute: 2
+	1. KO có thẻ cha được định vị:
+	 => định vị theo vị trí của thẻ <body>
+	2. CÓ thẻ cha được định vị
+	 => định vị theo vị trí của thẻ cha gần nhất và THẺ CHA ĐÓ PHẢI ĐƯỢC ĐỊNH VỊ
+	   => position: relative; (THẺ CHA)
+=>position: absolute có tác dụng định vị phần tử theo vị trí tuyệt đối
+(định vị tuyệt đối theo thẻ cha được định vị, nếu không sẽ định vị tuyệt đối theo thẻ body).
+
+-4 fixed: 2 nghĩa là cố định
+	1. Được định vị theo viewport
+	=> thường sử dụng trong các lớp MODAl
+
+-5 sticky: 1,2 => định theo thẻ cha gần nhất có thanh cuộn (scroolbar)
+	1. THường dùng cho thanh điều hướng 
+	CÓ THỂ HIỂN THỊ TIÊU ĐỀ CỦA ĐIỀU HƯỚNG MẶC ĐỊNH LUÔN TRÊN ĐẦU 

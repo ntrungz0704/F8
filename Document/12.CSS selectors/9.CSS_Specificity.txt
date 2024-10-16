@@ -1,0 +1,25 @@
+CSS Specificity ( Độ ưu tiên )
+
+_ CSS mặc định sẽ có độ ưu tiên thấp nhất
+
+Selector			Specificity Value	Calculation
+p				1			1
+p.test				11			1 + 10
+p#demo				101			1 + 100
+<p style="color: pink;">	1000			1000
+#demo				100			100
+.test				10			10
+p.test1.test2			21			1 + 10 + 10
+#navbar p#demo			201			100 + 1 + 100
+*				0			0 (the universal selector is ignored)
+
+!important nếu như thêm cái này đằng sau màu thuộc tính ví dụ
+color: red !important; 
+thì ngay lập tức thuộc tính này sẽ là mạnh nhất mạnh hơn cả 1000đ
+Nếu tất cả đều có !important thì lại so sánh điểm
+tên thẻ : 1 điểm
+class : 10 điểm
+id : 100 điểm
+inline : 1000 điểm
+
+!important rất hạn chế dùng

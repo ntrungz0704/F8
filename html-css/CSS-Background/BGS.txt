@@ -1,0 +1,11 @@
+bgs: cover; ( lắp đầy )
+=> cover nó sẽ hiển thị ảnh nền lắp đầy kích thước của phần tử
+( và một phần của bức ảnh có thể bị mất đi vì tỉ lệ kích thước của 
+khung hình và hình ảnh ko chính xác ) sẽ co lại nhưng co lại 1 cách tối đa
+và vẫn đảm bảo sẽ lắp đầy vào khung hình
+
+bgs: contain; ( chứa hoàn toàn bên trong )
+=> contain sẽ đảm bảo ảnh sẽ đượuc hiển thị đầy đủ và ko mất đi hình ảnh dù chỉ 1px
+và sẽ có thể bị thừa 1 khoảng trắng của khung hình khi KHUNG HÌNH quá to
+
+

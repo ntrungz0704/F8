@@ -1,0 +1,9 @@
+Tương đối / tuyệt đối
+Relative: ./, ../
+Absolute:
+- /
+- https://fullstack.edu.vn
+- //fullstack.edu.vn
+
+Relative phụ thuộc vào nơi nó đang đứng
+Absolute đơn giản là dẫn vào đúng đường dẫn gốc

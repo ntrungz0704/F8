@@ -1,0 +1,15 @@
+Đây không phải là một định dạng ảnh. Base64 là một chương trình mã hóa chuỗi ký tự.
+
+Ưu điểm:
+- Ảnh đi theo code HTML, CSS (không phải tải qua URL)
+- Giảm số lượng kết nối, tăng tốc độ tải trang
+
+Nhược điểm:
+- Không tái sử dụng được như URL
+- Khi ảnh lớn thì chuỗi mã hóa lớn, gây nặng file HTML, CSS
+- Hình ảnh không được công cụ tìm kiếm đánh chỉ mục
+
+Dùng khi:
+- Muốn ảnh đi kèm với code HTML, không phải tải qua một URL
+
+Link : https://www.base64-image.de/

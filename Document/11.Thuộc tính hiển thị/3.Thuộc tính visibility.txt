@@ -1,0 +1,7 @@
+* Thuộc tính này dùng để quyết định "ẩn" or "hiện" trên trang web
+
+visibility: hidden; /* ẩn đi */
+visibility: visible; /* hiện lên */
+
+- Sẽ bị ẩn đi nhưng giống opacity là vẫn chiếm KO GIAN hiển thị
+- ko tương tác được với element có sử dụng visibility: hidden nữa

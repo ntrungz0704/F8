@@ -1,0 +1,6 @@
+Một số cách viết màu khác
++ rgb(red green blue)
++ rgb(red green blue / alpha)
++ rgb(red, green, blue, alpha)
++ gray/ grey colors
++ transparent; = alpha = 0

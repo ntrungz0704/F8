@@ -1,0 +1,11 @@
+Thuộc tính background-clip
+Trong Box Model, border, padding, content là 3 thành phần được đổ màu nền/ảnh nền. 
+Thuộc tính background-clip quyết định màu nền/ảnh nền trong một
+phần tử được đổ từ thành phần nào.
+
+Thuộc tính background-clip bao gồm 3 giá trị:
+
+border-box là giá trị mặc định. Ảnh nền/màu nền sẽ được đổ từ border vào
+padding-box sẽ đổ ảnh nền/màu nền từ padding vào
+content-box thì chỉ được đổ ngay ở content
+text là giá trị chỉ được đổ vào chữ

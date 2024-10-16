@@ -1,0 +1,14 @@
+flex-wrap: nowrap;
+=> nowrap là giá trị mặc định: nghĩa là ko xuống hàng
+
+flex-wrap: wrap;
+=> wrap nghĩa là xuống hàng
+
+flex-wrap: wrap-reverse;
+=> wrap-reverse nghĩa là đảo ngược lại thôi
+
+align-content: stretch;
+=> là giá trị mặc định: căng ra
+
+và các giá trị giống align-items và justify-content: chỉ khác chiều ngang và dọc
+VÀ align-content: chỉ hoạt động khi có 2 dòng hoặc 2 hàng 

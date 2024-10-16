@@ -1,0 +1,2 @@
+padding : là tự dày chính bản thân nó lên
+margin : đúng nghĩa là chỉ đẩy xa khoảng cách

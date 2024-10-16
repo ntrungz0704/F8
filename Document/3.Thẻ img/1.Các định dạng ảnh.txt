@@ -1,0 +1,6 @@
+# Định dạng JPG/JPEG
+# Định dạng PNG
+# Định dạng SVG
+# Định dạng GIF
+# Định dạng WebP
+# Mã hóa Base64

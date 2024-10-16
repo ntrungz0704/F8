@@ -1,0 +1,5 @@
+dùng max-width: 100%
+ví dụ trong class content có chứa cả thẻ img hình ảnh
+.content img {
+	max-width: 100%;
+	}

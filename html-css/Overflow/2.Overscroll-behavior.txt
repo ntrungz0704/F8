@@ -1,0 +1,20 @@
+====> Overscroll-behavior: nghĩa là cuộn trong cuộn, cuộn chuỗi
+
+Nghĩa là có nhiều thanh cuộn trong 1 trang nhưng mà bạn muốn
+khi mà bạn trỏ chuột vào thanh cuộn nhỏ khi cuộn xuống hết ròi thì thôi ko được cuộn luôn cả
+trang web lớn chỉ cuộn đc bên trong trang cuộn nhỏ thôi và KHI NÀO BẠN TRỎ CHUỘT RA NGOÀI
+trang CUỘN LỚN thì mới cuộn đc
+
+Có 3 giá trị:
++ overscroll-behavior: auto; (default)
+===> là khi bạn cuộn trang cuộn nhỏ xuống dưới cùng thì sẽ cuộn đồng thời cả cuộn lớn
+
++ overscroll-behavior: contain;
+===> ngược lại với auto là chỉ cuộn những gì mình muốn
+
++ overscroll-behavior: none
+===> giống contain nhưng ko có hiệu ứng cao su và nếu như bạn áp dụng contain trên đt
+thì web kéo từ trên xuống hết cỡ có thể sẽ tải lại trang thì nếu ko muốn tải lại khi cuộn
+bạn dùng none
+
+

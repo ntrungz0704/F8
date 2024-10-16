@@ -1,0 +1,2 @@
+Cộng qua phải xuống dưới( horizontal ) ngang X
+Trừ qua trái lên trên ( vertical ) dọc Y

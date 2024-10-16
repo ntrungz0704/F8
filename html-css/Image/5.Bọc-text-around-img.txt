@@ -1,0 +1,6 @@
+Chúng ta sẽ dùng thuộc tính float để đẩy thẻ img qua bên trái hoặc phải mà ta muốn
+Có 4 giá trị:
++ left: đẩy phần tử sang trái các phần tử còn lại nằm bên phải
++ right: đẩy phần tử sang phải các phần tử còn lại nằm bên trái
++ none: ko đẩy sang trái or phải xhien như bth
++ inherit: kế thừa từ phần tử cha

@@ -1,0 +1,6 @@
+#Thẻ meta charset
+
+<meta charset="UTF-8" />
+=> Được sử dụng tại vị trí đầu tiên trong thẻ <head>
+
+charset="UTF 8" có tdung support hthị các ký tự khác nằm ngoài khoảng A-Z

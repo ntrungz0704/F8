@@ -1,0 +1,6 @@
+Giống với thuộc tính align-items ở trong flex: container
+còn align-seft thì thuộc thẻ con flex: item
+
+align-items: stretch;
+=> stretch: giá trị mặc định
+và các giá trị của nó tương tự như là align-items

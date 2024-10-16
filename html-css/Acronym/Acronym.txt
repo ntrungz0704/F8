@@ -1,0 +1,3 @@
+CDN: Content Delivery Network.
+Là mạng phân phối nội dung
+Flex: flexible => sự linh hoạt

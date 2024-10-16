@@ -1,0 +1,17 @@
+selection: chọn những nội dung bị bôi đen
+marke: chọn những biểu tượng ở trước thẻ li (dấu chấm, số)
+
+p::selection {
+  color: red;
+  background: #333;
+}
+
+=> giải thích: khi mà ta dùng chuột bôi đen thứ gì đó thì nó sẽ sử dụng giá trị ở trên selection
+
+li::marker {
+  color: red;
+}
+
+=> giải thích: thì các phần của li sẽ biến đổi theo giá trị mà ta đặt
+
+Và li cũng bị hạn chế sử dụng css như 2 pseudo first

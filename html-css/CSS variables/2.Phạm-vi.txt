@@ -1,0 +1,17 @@
+Phạm vi
++ Phạm vi global: toàn cục
++ Phạm vi local: cục bộ
+
+những biến bên trong
+:root {
+	--tên biến: giá trị;
+}
+===> Là những biến toàn cục có thể sử dụng ở mọi nơi
+
+
+.content h1 {
+  --heading-color: orange;
+  color: var(--heading-color);
+}
+===> Còn đây là phạm vi cục bộ vừa khởi tạo biến và sử dụng trong chính biến đó và nếu như
+thẻ cha có khởi tạo biến thì thẻ con nằm bên trong thẻ cha CŨNG có thể SỬ Dụng nó

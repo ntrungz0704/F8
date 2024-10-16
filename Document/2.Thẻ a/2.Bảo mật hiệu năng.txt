@@ -1,0 +1,12 @@
+Hãy thêm 1 property
+Nhằm mục đích khi chúng ta sử dụng thuộc tính target="_blank"
+thì trang web khi mở ra đó sẽ ko thể nào chiếm quyền sử dụng trang web chính
+của chúng ta được ( đó là TH xấu khi đó là trang web lừa đảo )
+
+=> Cho nên hãy luôn sử dụng property này mỗi khi sdung target="_blank"
+
+target="_blank" rel="noopener" or rel="noreferrer"
+
+
+-----
+Link tham khảo : https://developer.chrome.com/docs/lighthouse/best-practices/external-anchors-use-rel-noopener?hl=vi

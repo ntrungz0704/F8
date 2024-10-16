@@ -1,0 +1,4 @@
+=====> overflow: overplay;
+overflow: overlay; sẽ hiển thị thanh cuộn (scrollbars) bên trên nội dung (overlay), 
+thay vì đẩy nội dung sang một bên như trong overflow: scroll;.
+=> CHỉ nên biết ko nên sử dụng nhiều vì ko được hỗ trợ nhiều trên browser

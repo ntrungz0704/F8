@@ -1,0 +1,24 @@
+Bước 1: Nhúng thẻ code CSS của thư viện Prism
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css"/>
+
+Bước 2: Thêm đường dẫn này vào trước thẻ </body>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+
+Bước 3: Thêm class="language-html" vào <code>
+<code class="language-html">
+
+html có thể thay bằng ngôn ngữ khác
+
+Cách đổi màu highlight dựa trên THư viện Prism ta làm như sau
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css"/>
+
+Đằng sau chữ prism.min ta đổi như sau prism-dark.min
+
+Thay chữ dark = các màu có sẵn như
++ funky
++ okaidia
++ twilight
++ coy
++ solarized light
++ tomorrow night

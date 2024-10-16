@@ -1,0 +1,7 @@
+Thẻ tùy chỉnh
+là thẻ tùy chỉnh có thể tự đặt tên là làm theo thứ mình muốn
+
+Cách tạo ( custom element )
+ví dụ : tên-tên + thẻ mở, thẻ đóng
+
+ví dụ: <icon-nav> Nội dung </icon-nav>

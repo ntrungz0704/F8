@@ -1,0 +1,4 @@
+Đặc tính Inline:
+- Là thẻ nội tuyến được tạo ra nhằm nằm bên trong thẻ BLOCK
+- Chiếm theo nội dung mà nó chứa, ko nằm trên 1 dòng mới, sẽ nằm trên 1 dòng
+khi nào ndung quá nhiều thì nó sẽ tự động xuống hàng

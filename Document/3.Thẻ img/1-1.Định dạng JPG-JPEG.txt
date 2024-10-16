@@ -1,0 +1,16 @@
+# Định dạng JPG/JPEG
+
+Ưu điểm:
+- Mức độ nén cao
+- Được hỗ trợ trong mọi trình duyệt
+- Hỗ trợ hiển thị hàng triệu màu sắc
+
+Nhược điểm:
+- Hình ảnh có thể bị vỡ
+- Không hỗ trợ nền ảnh trong suốt
+- Chất lượng bị giảm khi độ nén cao
+- Không hỗ trợ ảnh động
+
+Dùng khi:
+- Hình ảnh trong nội dung bài viết (blog, bài post trên Facebook, v.v)
+- Ảnh quảng cáo, banner không đòi hỏi ảnh trong suốt

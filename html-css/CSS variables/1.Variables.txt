@@ -1,0 +1,12 @@
+Vì sao phải dùng biến
+==> Trong 1 dự án thực tế, sẽ có 1 giá trị đc sử dụng lặp đi lặp lại ở nhiều chỗ
+
+Cách tạo biến
+:root {
+    --tên biến: giá trị;
+}
+
+Cách dùng biến
+var(--tên biến);
+
+LƯU Ý: tên biến có phân biệt chữ hOA và chữ thường

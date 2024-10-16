@@ -1,0 +1,49 @@
+background-attachment
+_ trong trình duyệt thanh cuộn scroll sẽ hiển thị mặc định khi trình duyệt trên thiết bị đó
+có nội dung dài hơn thiết bị
+_ background-attachment: fixed;
++ thuộc tính này khi sử dụng sẽ khiến cho thẻ của thuộc tính đó bị đứng yên khi mà chúng
+ta kéo thanh cuộn lên hoặc xuống
+
+auto:
+
+Nội dung bị cắt bớt và thanh cuộn sẽ chỉ xuất hiện khi cần thiết (tức là khi nội dung tràn ra ngoài vùng chứa).
+css
+Sao chép mã
+.box {
+  overflow: auto;
+}
+
+overflow dùng để ddkhien các phần tử con bên trong 1 phần tử cha VẪN ĐƯỢC HIỂN THỊ
+khi chúng vượt ra khỏi vùng hiển thị của phần tử CHA
+
+.box {
+  background-image: url(https://images.unsplash.com/photo-1721853046219-209921be684e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weigt: 600;
+  height: 400px;
+  overflow: auto;
+}
+
+
+nếu muốn hình ảnh cùng cuộn CÙNG, CHUNG với đoạn chat thì thêm giá trị
+background-attachment: local;
+
+ta sẽ được như sau
+
+.box {
+  background-image: url(https://images.unsplash.com/photo-1721853046219-209921be684e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  color: white;
+  font-weigt: 600;
+  height: 400px;
+  overflow: auto;
+}
+
+nếu muốn sử dụng nhiều bgi cùng lúc bạn chỉ cần làm vậy
+background-image:  url("img_tree.gif"), url("paper.gif");
+hình nào bên trái đếm qua sẽ đè lên hình đằng sau

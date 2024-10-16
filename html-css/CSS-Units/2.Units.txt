@@ -1,0 +1,38 @@
+Đơn vị %, vw, vh ( là các Units phụ thuộc vào parents<phần tử cha> )
+_ Nếu mà trang web của bạn ko dịch được sang TV thì bạn có thể kiểm tra
+class của thuộc tính đó có chữ notranslate ko nếu có thì xóa nó đi và ngay lập tức sẽ dịch đc
+
+Các thuộc tính có thể sử dụng đơn vị
++ font-size;
++ line-height;
++ width, height;
++ min-width, min-height;
++ max-width, max-height;
++ và các thuộc tính của BOX MODEL và v.v
+
+vw, vh ( viewport width, viewport height )
+
+Đơn vị em
+_ đơn vị em sẽ luôn phụ thuộc vào KÍCH CỠ FONT-SIZE của chính nó
+tình huống sử dụng: tăng dần tỉ lệ hoặc giảm dần tỉ lệ
+hoặc giữ tỉ lệ của từng phần tử 1 nhưng kích thước vẫn ko thay đổi
+
+Đơn vị rem
+_ đơn vị rem chỉ PHỤ THUỘC VÀO FONT-SIZE của thẻ HTML
+
+Cách tính
+Thẻ HTML của web mặc định 16px 
+giờ ta muốn chuyển đổi sang đơn vị rem
+và ta hãy biến nó thành 1 rem = 10px 
+B1 ) lấy 10px / 16px = 0.625
+B2 ) sửa thành 0.625 = 10px vậy nếu muốn full % thì là 62.5%
+B3 ) sửa lại các đơn vị có giá trị px thành rem
+ví dụ 28px => 2.8rem;
+20px => 2.0rem nghĩa là 2rem;
+và cách sửa 1 lần cho tất cả trang web ta sửa font-size ở html
+
+Công thức tính là:
+1 rem=Kích thước font của <html>
+Vì ta muốn:
+2.4rem = 24px;
+1rem = 24px/2.4 =10px

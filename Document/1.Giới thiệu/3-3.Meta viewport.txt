@@ -1,0 +1,7 @@
+#Thẻ meta viewport
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
++ width=device-width : yêu cầu browser đặt width web = width device
++ initial-scale=1.0 : giữ đúng tỉ lệ mặc định của web
+
+=> Hỗ trợ hiển thị giao diện web trên nhiều tbi có kthuoc screen khác nhau

@@ -1,0 +1,21 @@
+Cách sử dụng màu chuyển
+background-image: linear-gradient(
+    direction (optional - to bottom),
+    color1 (required) stop1 (optional),
+    color2 (required) stop2 (optional),
+    ...
+);
+
+
+Syntax: ( cú pháp )
+direction: là tham số ko bắt buộc nếu ko thêm tham số thì mặc định là to bottom
+lưu ý : những property có chữ optional thì thêm hay ko cũng được
+color1 (required) stop1 (optional), ví dụ: red 50%,
+color2 (required) stop2 (optional), ví dụ: green 100%
+..., màu tiếp theo nếu bạn muốn, v.v nếu bạn muốn
+
+direction có 2 cách chỉ định:
++ (số độ)deg ví dụ: 90deg 0 độ là từ bottom
++ to left là từ phải qua trái
+to right là từ trái qua phải
+to top left là từ dưới lên bên trái

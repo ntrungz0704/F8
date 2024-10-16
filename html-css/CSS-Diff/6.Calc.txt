@@ -1,0 +1,12 @@
+Hàm calc()
++, -, *, /
+
+property: calc(expression);
+-- property: Tên thuộc tính CSS mà bạn muốn áp dụng.
+-- expression: Phép toán bạn muốn thực hiện, có thể bao gồm các phép cộng, trừ, nhân, chia.
+
+=> Các phép toán hỗ trợ:
+Cộng (+): Thêm hai giá trị.
+Trừ (-): Trừ một giá trị từ giá trị khác.
+Nhân (*): Nhân hai giá trị.
+Chia (/): Chia một giá trị cho giá trị khác.

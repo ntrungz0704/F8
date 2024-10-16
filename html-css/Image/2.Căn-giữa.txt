@@ -1,0 +1,8 @@
+text-align: center;
+=> dùng để căn giữa
+nếu như mà có tên thẻ trùng với của hình ảnh
+thì hãy tác động TRỰC TIẾP LÊN THẺ IMG
+thì img là thẻ inline vậy nên sẽ biến nó thành thẻ block
+display: block;
+margin: 0 auto;
+dùng margin: 0 auto: bởi vì thứ muốn căn giữa ko phải là văn bản

@@ -1,0 +1,6 @@
+flex-shrink: giúp kiểm soát việc co lại của các ELE ngược lại với grow
+=> giá trị mặc định là 1
+các giá trị có chung attribute shrink thì sẽ co lại chung với nhau
+
+
+flex-basis: giúp đặt được kích thước của flex-items

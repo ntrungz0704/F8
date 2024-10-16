@@ -1,0 +1,18 @@
+# Định dạng SVG ( vector ko bao giờ bị vỡ )
+
+Ưu điểm:
+- Dung lượng có thể nhỏ
+- Dễ dàng chỉnh sửa bằng CSS
+- Phóng lớn mà không bị vỡ ảnh
+- Hỗ trợ ảnh động
+- Hỗ trợ ảnh trong suốt
+- Được hỗ trợ trong mọi trình duyệt
+
+Nhược điểm:
+- Dung lượng tăng cao nếu hình có nhiều họa tiết khác nhau, phức tạp
+- Không thể đọc một phần của định dạng này, phải chờ tải xong hoàn toàn
+
+Dùng khi:
+- Logo, icon với thiết kế dạng hình học, vector
+- Hình ảnh cần đáp ứng nhiều kích thước khác nhau
+

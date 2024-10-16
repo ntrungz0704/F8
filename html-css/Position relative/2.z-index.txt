@@ -1,0 +1,8 @@
+z-index
+HOạt động trên những phần tử được định vị tương tự như 4 thuộc tính
+top, right, bottom, left
+còn z-index là ĐỊNH VỊ THEO CHIỀU SÂU quyết định ptu nào đè lên ptu nào
+z-index: auto; là giá trị mặc định
+dùng giá trị số để quyết định xem cái nào đè lên cái nào
+ví dụ z-index: 1; và z-index: 2;
+thì 2 ĐÈ LÊN 1 còn nếu cùng là số 2 thì nhìn code trong HTML nào viết sau đè lên viết trước

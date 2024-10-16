@@ -1,0 +1,6 @@
+* Hạn chế của thẻ INLINE
+KO hoạt động trên thẻ INLINE
+_ padding-top, padding-bottom
+_ margin-top, margin-bottom
+_ width, min-width
+_ height, min-height

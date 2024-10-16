@@ -1,0 +1,5 @@
+Reset CSS:
+- là đặt lại các thuộc tính mặc định trên browser của CSS để trên nhiều
+nhiều browser đều giống nhau
+
+ 

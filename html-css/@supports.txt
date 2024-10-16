@@ -1,0 +1,39 @@
+Mean
+@supports
+là 1 at-rule(quy tắc bắt đầu bằng @)
+cho phép bạn kiểm tra xem TRÌNH DUYỆT CÓ HỖ TRỢ TÍNH NĂNG CSS HAY KO
+
+Syntax basic
+@support (property: value) {
+	selector {
+		property: value;
+	}
+}
+
+Explain:
+@supports (tính năng: giá trị) có thể thêm từ and - or (i chang) {
+	bộ chọn {
+			tính năng: giá trị;
+	}
+}
+
+/* Các kiểu thông thường */
+.container {
+  display: flex;
+}
+
+/* Kiểm tra nếu trình duyệt hỗ trợ CSS Grid */
+@supports (display: grid) {
+  .container {
+    display: grid;
+  }
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text){
+    .highlight {
+    color: transparent;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    }
+}

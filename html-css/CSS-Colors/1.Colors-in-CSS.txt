@@ -1,0 +1,21 @@
+Màu sắc trong CSS
+1)Names ( red, green, v,v)
+
+2)RGB (red, green, blue)
+-các giá trị red, green, blue bắt đầu từ 0 - 255
+
+3)RGBA (red, green, blue, alpha)
+-giá trị alpha bắt đầu từ 0-1 là độ trong suốt
+ví dụ muốn trong suốt một nửa thì điền là 0.5
+
+4)HEX (thập lục phân) cơ số 16
+1 vài cơ số 
++ nhị phân: 0 và 1
++ thập phân: 0123456789
++ thập lục phân: 0123456789abcdef
+ví dụ: #ffffff sẽ ra màu trắng 
+có thể viết là #fff
+#rrggbbalpha nếu muốn
+Chính xác! Vì là cơ số 16 và có 2 kí tự (trong khoảng từ 00 - ff) nên giá trị 00 sẽ tương đương với giá trị 0.
+
+5)currentColor (chọn màu theo color đã cho trong element)

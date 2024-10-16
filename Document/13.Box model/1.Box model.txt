@@ -1,0 +1,12 @@
+- Các elements luôn là HÌNH CHỮ NHẬT
+
+- Nhóm 5 thuộc tính Box model
++ width ( lớp content )
++ height ( lớp content )
++ padding ( đệm )
++ border ( viền )
++ margin ( ko gian )
+
+- Kích thước thật của element
+nếu ko có padding or border thì kích thước sẽ là mặc định theo những gì bạn
+đặt CSS

@@ -1,0 +1,10 @@
+a {
+  display: inline-block;
+  min-width: 80px; /*Chiều rộng tối thiểu ( chỉ sử dụng trên thẻ block or inline-block*/
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+}

@@ -1,0 +1,8 @@
+Thuộc tính pointer-events quyết định một phần tử phản ứng với sự kiện 
+của con trỏ chuột hay không.
+
+pointer-events: auto;
+=====> đây là giá trị mặc định
+
+pointer-events: none;
+=====> sử dụng khi bạn muốn user ko tương tác được với Ele đó và ko tác động đc vào nó

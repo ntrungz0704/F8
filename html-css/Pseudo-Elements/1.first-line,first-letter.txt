@@ -1,0 +1,27 @@
+CÚ PHÁP SỬ DỤNG
+giống tương tự như pseudo class
+element::pseudo {
+	property
+}
+
+ví dụ:
+p::first-line {
+	background-color: red;
+	}
+Có nghĩa là sẽ thay đổi dòng đầu tiên của văn bản thành màu đỏ
+VÀ KO HOẠT ĐỘNG VỚI THẺ INLINE
+CHỈ hoạt động với thẻ inline-block or block
+
+TƯơng tự nhưu first-line thì first-letter cũng vậy
+p::first-letter {
+  font-size: 50px;
+  color: red;
+  font-weight: 600;
+}
+Tác động lên chữ đầu tiên của văn bản
+
+
+LƯU Ý 2 pseudo trên sẽ ko hoạt động trên tất cả các css
+ý tôi là 2 pseudo kia chỉ dùng được 1 vài property nhất định
+ví dụ:
+font, color, background ...etc

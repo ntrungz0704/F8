@@ -1,0 +1,38 @@
++ Thuộc tính letter-spacing được sử dụng để điều chỉnh khoảng cách giữa các ký tự. 
+Giá trị càng lớn khoảng cách giữa các ký tự càng xa nhau.
+
++ Thuộc tính text-align dùng để căn nội dung theo các hướng như: căn trái, căn phải, 
+căn giữa, v.v. Mặc định, nội dung đã được căn trái.
+
++ Trong CSS, text-decoration được sử dụng để thêm gạch chân chữ hoặc bỏ gạch chân chữ.
+
++ Thuộc tính text-indent được sử dụng để thụt lề dòng đầu tiên trong một đoạn văn bản.
+
++ Thuộc tính text-transform được sử dụng để chuyển đổi từ chữ in hoa 
+thành chữ thường và ngược lại.
+
+Ví dụ :
+letter-spacing: 4px or -2px etc;
+
+text-align: mặc định căn theo lề trái
++ text-align: right; căn phải
++ text-align: center; căn giữa
++ text-align: justify; dàn đều hai bên
+text-align CHỈ HOẠT ĐỘNG KHI thẻ đó là thẻ INLINE or INLINE-BLOCK
+
+text-decoration: dùng để thêm GẠCH CHÂN cho chữ hoặc BỎ GẠCH CHÂN
+Bao gồm các giá trị:
++ line-through gạch ngang nội dung
++ overline gạch bên trên nội dung
++ underline gạch dưới nội dung
++ none để bỏ gạch chân chữ
+có thể dùng nhiều giá trị cùng lúc
+
+text-indent: dùng để thụt lề
+
+text-transform: được sử dụng để chuyển đổi từ chữ in hoa thành chữ thường và ngược lại.
+Bao gồm các giá trị:
++ none là giá trị mặc định, văn bản hiển thị như văn bản gốc.
++ uppercase biến đổi tất cả các chữ thành chữ in hoa.
++ lowercase biến đổi tất cả các chữ thành chữ thường.
++ capitalize biến đổi chữ cái đầu của mỗi từ thành chữ in hoa, các chữ cái còn lại ở dạng chữ thường.

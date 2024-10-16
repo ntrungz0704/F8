@@ -1,0 +1,8 @@
+#			display: none	opacity: 0	visibility: hidden
+Ẩn khỏi giao diện	✅		✅		✅
+Chiếm không gian	❌		✅		✅	
+Có thể tương tác	❌		✅		❌
+Ẩn phần tử con		✅		✅		✅
+Tính thừa kế		❌		❌		✅
+Hiển thị phần tử con	❌		❌		✅
+Hỗ trợ Animations	❌		✅		✅

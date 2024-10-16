@@ -1,0 +1,8 @@
+Vai trò của HTML, CSS, Javascript
+
+3 ngôn ngữ xây dựng trang web
+
+HTML dùng để thêm ý nghĩa cho nội dung bằng cách đánh dấu nó
+CSS dùng để định dạng cho nội dung đã được đánh dấu bởi HTML
+JavaScript dùng để thêm chức năng giúp người dùng có thể tương tác nhiều hơn với trang web
+

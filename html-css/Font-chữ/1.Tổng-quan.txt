@@ -1,0 +1,18 @@
+Có 3 kiểu
+1) Sans-Serif ( ko chân ) 1st
+2) Serif ( có chân ) 2nd
+3) Monospace ( chữ độ rộng bằng nhau ) 3rd
+độ phổ biến nằm bên phải
+
+1+2 dùng trong hầu hết mọi website, nội dung dài, hỗ trợ in ấn, trích dẫn câu nói
+3 viết code mã máy tính
+
+Sử dụng font chữ CSS
+thuộc tính
+font-family: ... ; (có inherit, có kế thừa dùng trong body nếu bạn chỉ dùng 1 font)
+có thể sử dụng nhiều font và nó sẽ xem xét và sử dụng font bên trái đằng trước
+trước rồi mới tới đằng sau nếu font đằng trước browser bạn ko SP thì nó dùng ở đsau
+
+mẹo
+font-family: Arial, Helvetica, sans-serif;
+2 font kia explain ở trên còn sans-serif đc sdung khi 2 font kia ko có luôn

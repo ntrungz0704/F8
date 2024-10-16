@@ -1,0 +1,54 @@
+===> 1
+[attribute=value] {
+	property: value;
+}
+
+ví dụ
+HTML
+<a href="" lang="vi">Link 1</a>
+<a href="" lang="en">Link 2</a>
+<a href="" lang="en">Link 3</a>
+
+CSS
+a[lang=vi] {
+  color: red;
+  font-size: 32px;
+}
+
+
+===> 2
+[attribute~=text] {
+	property: value;
+}
+
+HTML
+<a href=""title="ipsum dolor sit amet">Link 1</a>
+<a href=""title="laboriosam dolor nam quis maiores est">Link 2</a>
+<a href=""title="Odio autem ut deserunt">Link 3</a>
+
+CSS
+a[title~=dolor] {
+  color: red;
+  font-size: 32px;
+}
+
+=====> khi sử dụng attribute~=text thì trong nơi mà bạn muốn css phải có đoạn text đó
+nhưng đoạn text đó phải đứng 1 mình độc lập ko được đứng cạnh từ nào kể cả dấu , dấu .
+còn muốn kết hợp nhiều từ thì chỉ đơn giản là
+
+a[title~=dolor][title~=amet]{
+  color: red;
+  font-size: 32px;
+}
+
+===> 3
+[attribute|=value] {
+	property: value;
+}
+=====> thuộc tính này sẽ chọn tất cả các thẻ có thuộc tính ... bắt đầu bằng giá trị ... hoặc
+giá trị- nghĩa là có dấu gạch sau giá trị á
+
+
+[attribute^=value]  a[href^="https"]	Lấy các thẻ <a> có thuộc tính href begin bằng chuỗi https.
+[attribute$=value]  a[href$=".pdf"]	Lấy các thẻ <a> có thuộc tính href end bằng chuỗi .pdf.
+[attribute*=value]  a[href*="f8.edu.vn"]Lấy các thẻ <a> có thuộc tính href chứa chuỗi f8.edu.vn.

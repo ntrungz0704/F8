@@ -1,0 +1,29 @@
+Trong CSS, có thể xác định giá trị mặc định cho các biến để sử dụng như 
+một giá trị dự phòng (fallback value). Giá trị mặc định cho biến là giá trị sẽ được 
+sử dụng nếu trước đó biến không được khai báo.
+
+Sử dụng giá trị mặc định cho biến giúp đảm bảo trang web của bạn sẽ hiển thị 
+đúng cách ngay cả khi một số biến không được định nghĩa hoặc không có giá trị.
+
+Ví dụ
+:root {
+	--box-color: red;
+}
+
+.box {
+	background: var(--box-color);
+}
+
+===> Thì đây nếu như :root có --box-color thì .box sẽ được hiển thị màu đỏ còn nếu ko có 
+ta muốn là sẽ có một màu dự phòng thì phải làm sao
+
+CÁCH LÀM
+.box {
+	background: var(--box-color, giá trị muốn dự phòng);
+}
+
+Và biến có thể lồng nhau
+=== >>> SỬ DỤNG VAR VÀO NHỮNG THÀNH PHẦN CHỦ ĐẠO VÀ LẶP ĐI LẶP LẠI Ở TRÊN TRANG
++ colors
++ width, height, v.v...
++ fonts

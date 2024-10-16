@@ -1,0 +1,10 @@
+Họ phông chữ được chia làm 2 loại:
+
+Họ phông theo tên - family-name: Arial, Helvetica, Times New Roman, v.v.
+Họ phông chữ chung - generic-family: serif, sans-serif, cursive, monospace, v.v.
+
+VÀ CÁCH NHÚNG FONT
+GOOGLE FONTS
+https://fonts.google.com/?sort=popularity
+Tìm kiếm font mà bạn muốn sử dụng
+sau đó chọn kích cỡ và nhúng link vào file html

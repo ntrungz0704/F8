@@ -1,0 +1,35 @@
++ line-height: chiều cao dòng tăng giảm khoảng cách các dòng chữ
+tránh dùng giá trị tuyệt đối nên dùng số ko cần giá trị
+ví dụ:
+line-height: 1.5;
+font-size: 40px;
+thì line-height lớn gấp 1.5 so với 40px
+Ngôn ngữ tiếng anh nên dùng 1.4
+Ngôn ngữ tiếng việt nên dùng 1.5, 1.6
+
++ font-style:
+Thuộc tính có 3 giá trị:
+normal là giá trị mặc định và hiển thị văn bản bằng chữ bình thường.
+italic để hiển thị văn bản bằng chữ in nghiêng.
+oblique tương tự italic, nhưng có thể chỉ định góc nghiêng của chữ bằng cách cung cấp một giá trị góc.
+Riêng đối với giá trị oblique, bạn có thể tùy chỉnh góc nghiêng cụ thể.
+
+
++ font-variant:
+tạo ra chữ viết in hoa bảng THU NHỎ
+giá trị mặc định: normal
+giá trị viết nhỏ: small-caps
+
+
++ font-weight:
+tạo độ dày của chữ
+giá trị số là từ 100 - 900;
+để có thể sử dụng giá trị là số thì FONT-FAMILY của bạn sẽ phải hỗ trợ
+bold = 700
+normal = mặc định
+bolder = đậm lên 1 tí
+lighter = nhạt đi 1 tí
+
++ font(shorthand)
+CÁCH tra cứu : font shorthand css
+VÀ THUỘC TÍNH font-size và font-family là BẮT BUỘC

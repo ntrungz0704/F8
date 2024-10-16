@@ -1,0 +1,12 @@
+Box Model là gì?
+
+#Các phần tử luôn là hình chữ nhật
+#Các thành phần của Box Model
+#Box Model và CSS
+#Nhóm 5 thuộc tính trong Box Model
++ width lớp content
++ height lớp content
++ padding khoảng đệm
++ border lớp viền
++ margin lớp không gian
+#Kích thước thật của một phần tử

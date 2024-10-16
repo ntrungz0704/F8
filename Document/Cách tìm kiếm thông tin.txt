@@ -1,0 +1,5 @@
+Ví dụ:
+css opacity property
+
+
+GÕ thuộc tính muốn tìm thay thế cho chữ opacity là xong

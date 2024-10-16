@@ -1,0 +1,16 @@
+# Định dạng GIF
+
+Ưu điểm:
+- Dung lượng nhỏ
+- Hỗ trợ ảnh trong suốt
+- Hỗ trợ ảnh động
+- Được hỗ trợ trong mọi trình duyệt
+
+Nhược điểm:
+- Màu bị hạn chế
+- Hình ảnh có thể bị vỡ
+- Không chỉnh sửa được ảnh động
+- Ảnh động có thể chưa chuyển động khi chưa tải xong
+
+Dùng khi:
+- Khi cần các hình ảnh động

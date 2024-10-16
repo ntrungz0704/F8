@@ -1,0 +1,23 @@
+====> Overflow là gì?
+Khi nội dung một phần tử có kích thước lớn vượt quá thẻ chứa thì sẽ bị tràn ra ngoài, 
+tiếng Anh gọi là overflow.
+
+Các giá trị của overflow:
++ overflow: visible (default)
++ overflow: hidden (ẩn đi)
++ overflow: scroll
++ overflow: auto
+
+hidden: khi sử dụng thì text vượt quá giới hạn sẽ bị ẩn đi
+scrool: sẽ xuất hiện thanh cuộn(dọc lẫn ngang) nhưng nội dung width or height
+vượt quá thì mới cuộn được ở phần đó
+auto: nó khác scrool đơn giản là auto nếu text dài thì sẽ có thanh cuộn
+
+=====> overflow là viết gộp của 2 thuộc tính
++ overflow-x: auto;
++ overflow-y: auto;
+
+hoặc cũng có thể viết như vậy
++ overflow: hidden auto;
+thì chiều x là chiều ngang sẽ có giá trị hidden
+chiều y là chiều dọc sẽ có giá trị là auto

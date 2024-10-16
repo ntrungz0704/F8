@@ -1,0 +1,14 @@
+Clip-path
+3 hàm :
++ clip-path: circle(radius at center); : cắt thành hình tròn
+- radius: Bán kính của hình tròn. Có thể sử dụng đơn vị như px, %, hoặc em.
+- at center: Tùy chọn vị trí trung tâm của hình tròn. Mặc định là center.
+
++ clip-path: inset(top right bottom left round top-left top-right bottom-right bottom-left);
+: cắt thành hình chữ nhật
+
+clip-path: polygon(x1 y1, x2 y2, ...); : cắt tọa độ tạo ra hình đa giác bất kì hình gì
+
+=====> Ko ảnh hưởng đến kích thước của hình ảnh
+
+Website: https://clippy.fullstack.edu.vn/

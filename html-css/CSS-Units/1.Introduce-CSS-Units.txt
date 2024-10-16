@@ -1,0 +1,32 @@
+Đơn vị trong CSS
++ Đơn vị tuyệt đối - Absolute units
++ Đơn vị tương đối - Relative units
+
+# Đơn vị tuyệt đối
+Giá trị phần tử hiển thị CHÍNH XÁC - CỐ ĐỊNH
+KO PHỤ THUỘC vào phần tử hay bất kỳ ngữ cảnh nào trên WEB
+Các đơn vị tuyệt đối bao gồm:
++ px
++ mm
++ cm
+v.v
+Trong thực tế chúng ta thường chỉ dùng px, các đơn vị tuyệt đối khác bạn có thể bỏ qua.
+Tính chất của các đơn vị tuyệt đối:
++ Giá trị được hiển thị chính xác, cố định và không đổi.
++ Không phù hợp để làm responsive (đáp ứng nhiều thiết bị).
+
+# Đơn vị tương đối
+LUÔN PHỤ THUỘC vào 1 thành phần khác( tùy vào đơn vị )
+KO CỐ ĐỊNH, sẽ bị thay đổi khi sự phụ thuộc của nó thay đổi
+Các đơn vị tương đối bao gồm:
++ %
++ em
++ rem
++ vw, vh
++ v.v
+Thực tế thường hay sử dụng các đơn vị %, em, rem, vw, vh. Các đơn vị khác có thể bỏ qua.
+
+Tính chất của các đơn vị tương đối:
++ Linh hoạt, tự động thay đổi theo đối tượng phụ thuộc.
++ Không cố định, luôn luôn có đối tượng phụ thuộc.
++ Phù hợp để làm responsive.

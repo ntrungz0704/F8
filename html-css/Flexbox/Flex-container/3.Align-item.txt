@@ -1,0 +1,13 @@
+align-item
+===> căn chỉnh theo cross axis là theo chiều dọc
+align-items: stretch;
+=> stretch giá trị mặc định : căn ra, nghĩa là chiều cao ủa item = container
+
+align-items: flex-start;
+=> dồn lên trên cùng
+
+align-items: flex-end;
+=> dồn xuống dưới
+
+align-items: center;
+=> căn ở giữa

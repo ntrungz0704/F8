@@ -1,0 +1,6 @@
+Là 1 pp giúp tạo ra bố cụC trang wEb theo ý muỐn
+nói sơ về Flexbox
+Flexbox có 1 thẻ cha Flex container ===> và các thẻ con trực tiếp
+gọi là Flex item
+===> Lưu ý các thẻ muốn là thẻ flex item thì phải là thẻ cOn trực tiếp
+Flex viết tắt : flexible nghĩa là linh hoạt

@@ -1,0 +1,11 @@
+# Định dạng Webp
+
+Ưu điểm:
+- Dung lượng nhỏ hơn PNG, JPEG
+- Hỗ trợ ảnh trong suốt
+- Hỗ trợ ảnh động
+
+Nhược điểm:
+- Hình ảnh có thể bị vỡ
+- Chưa được hỗ trợ bởi mọi trình duyệt
+- Giảm chất lượng khi chuyển đổi qua

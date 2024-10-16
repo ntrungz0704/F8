@@ -1,0 +1,14 @@
+=====> box-shadow: thuộc tínH tạo bóng Đổ cho các ElemEnt
+Ví dụ:
+box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+giá trị thứ nhất ĐỔ theo Chiều ngAng
+giá trị thứ hai ĐỔ theo Chiều dỌc
+giá trị thứ ba là độ blUr
+giá trị thứ bốn là độ phỦ rỘng
+
+số dƯƠng chạy qua bên phải và xuống dưới
+số Âm chạy qua bên trái và lên trên
+mẹo nhớ : theo kim đồng hồ CHỈ NHỚ CÁI ĐẦU TIÊN LÀ dƯƠng bên phải
+
+TRANG WEB THAM KHẢO:
+https://cssgenerator.org/

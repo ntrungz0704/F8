@@ -1,0 +1,40 @@
+Ví dụ
+index.html
+<div class="bg bg-color"></div>
+<div class="bg bg-img"></div>
+
+main.css
+.bg {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.bg-color {
+  background: orange;
+}
+
+.bg-img {
+  background: url(https://files.fullstack.edu.vn/f8-prod/manual_uploads/htmlcss-pro/img-max-width-2.jpg)
+    center / cover;
+}
+
+
+ĐÂy VÀ bạn sẽ phải thêm thuộc tính này để đảm bảo rằng trang của bạn sẽ được in ra hình ảnh
+body{
+  -webkit-print-color-adjust:exact !important;
+  print-color-adjust:exact !important;
+}
+
+Tsao ? phải dùng !important à là bởi vì nếu bạn ko dùng thì 1 số browser sẽ ko sp và ko dùng nó
+
+
+* Nếu mà chỉ muốn dùng thuộc tính khi nào mà user print thôi
+sẽ dùng như sau
+@media : là cú pháp lựa chọn đc chế độ hiển thị, thiết bị
+
+@media print { 
+	body{
+ 		-webkit-print-color-adjust:exact !important;
+  		print-color-adjust:exact !important;
+	    }
+}

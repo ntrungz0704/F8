@@ -1,0 +1,21 @@
+Nên dùng đơn vị nào?
+1) px ( đơn vị tuyệt đối cố định ko bị ảnh hưởng bởi xung quanh )
+thiếu linh hoạt, chưa phù hợp để tạo ra nhiều thích ứng(resposive) với nhiều revice different
+=> sẽ phù hợp với đảm bảo TÍNH CỐ ĐỊNH KO THAY ĐỔI KÍCH THƯỚC, webs in ấn
+
+2) % ( đơn vị hay sử dụng )
+ví dụ tạo ra bố cục nhiều cột dòng hàng v.v
+
+3) vw, vh ( ăn theo % của phần nhìn thấy được của trình duyệt đó là phần VIEWPORT )
+1vw = 1% ( chiều rộng )
+1vh = 1% ( chiều cao )
+=> và ăn theo trình duyệt
+
+4) em ( thay đổi lớn dần hoặc giảm dần )
+
+5) rem ( giúp các bạn ksoat kích thước tại 1 nơi )
+tối ưu trải nghiệm ngdung
+hỗ trợ tốt về web accessibility
+
+
+ 

@@ -1,0 +1,3 @@
+display: none;
+
+Nó sẽ bị loại bỏ luôn bị loại bỏ về ko gian và hiển thị

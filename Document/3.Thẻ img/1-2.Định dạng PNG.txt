@@ -1,0 +1,16 @@
+# Định dạng PNG
+
+Ưu điểm:
+- Chất lượng hình ảnh không đổi khi bị nén
+- Được hỗ trợ trong mọi trình duyệt
+- Hỗ trợ hiển thị hàng triệu màu sắc
+- Hỗ trợ ảnh trong suốt
+
+Nhược điểm:
+- Hình ảnh có thể bị vỡ
+- Không hỗ trợ ảnh động
+
+Dùng khi:
+- Ảnh trên web yêu cầu độ trong suốt (logo, biểu tượng, v.v)
+- Các hình ảnh có kết hợp màu phức tạp như màu chuyển
+- Các hình ảnh cần chỉnh sửa lại nhiều lần

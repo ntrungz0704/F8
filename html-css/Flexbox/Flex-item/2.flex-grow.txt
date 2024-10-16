@@ -1,0 +1,8 @@
+flex-grow: chỉ định kích thước theo tỉ
+
+===> Thuộc tính flex-grow có thể định được kích thước cho các Flex item theo tỉ lệ, 
+được viết trực tiếp vào Flex item.
+flex-grow: 0; giá trị mặc định
+
+Và khi các giá trị có cùng flex-grow: 1; thì các ele sẽ được chia đều ra
+Thực ra số 1 ko quan trọng miễn sao là tất cả các Ele đều có chung attri là flex-grow

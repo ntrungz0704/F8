@@ -1,0 +1,10 @@
+256 số nguyên = 8 bit
+bit là đơn vị nhỏ nhất (binary digit) => 1 bit: 0 or 1
+[] hãy tưởng tượng đây là 1 bit 
+1 bit có 2 trường hợp là 0 or 1 thì ta sẽ lấy 1 bit là 2 vậy 8 bit là 16
+[][][][][][][][]
+2^8 = 256 số nguyên
+nếu muốn giảm độ mờ là bn thì ta tính như sau
+ví dụ : 0.7 
+0.7 * 255 = 178.5 và làm tròn là 179
+sau đó ta lấy 179 / 16 = 11

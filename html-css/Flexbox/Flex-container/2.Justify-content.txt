@@ -1,0 +1,23 @@
+Trong flex container sẽ có 2 trục
+trục Chính là main axis mặc định nằm ngang
+trục Chéo là cross axis mặc định theo chiều dọc
+===> 2 trục này luôn VUÔNG GÓC với nhau
+
+justify-content: flex-start;
+=> đây là giá trị mặc định nó sẽ canh các ElEment sang hết bên trái vì main-start nằm bên trái
+
+justify-content: flex-end;
+=> tương tự ngược lại qua hết bên phải
+
+justify-content: center;
+=> căn ở giữa
+
+justify-content: space-between;
+=> đẩy các phần tử ra xa nhất có thể theo device của bạn và đối xứng đều nhau
+
+justify-content: space-around;
+=> nghĩa là khoảng cách đầu bên trái và bên phải sẽ bằng nhau và nếu như có 3 cái
+thì ở giữa thứ nhất và cái ở giữa là thứ 2 sẽ có 2 khoảng cách nên sẽ là gấp đôi
+
+justify-content: space-evenly;
+=> tạo ra khoảng cách đều NHAO giữa các phần tử bn ELE thì nó cũng đều đc hết

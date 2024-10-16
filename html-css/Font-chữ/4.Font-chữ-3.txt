@@ -1,0 +1,32 @@
+white-space:
+nhiều khoảng trắng  => 1 khoảng trắng
+nhiều dấu xuống hàng => 1 khoảng trắng
+nội dung chạm giới hạn => xuống hàng
+
+- giá trị mặc định: normal đúng với 3 ý trên
+- giá trị nowrap: ko xuống hàng đúng với ý 1, 2 nếu muốn chữ chỉ trên 1 hàng
+- giá trị pre: mặc định ko đúng ý nào cả giống thẻ <pre>
+- giá trị pre-line: đúng với ý 1, 3
++ là nhiều khoảng trắng tính là 1
++ sẽ xuống hàng khi ndung quá dài
+- giá trị pre-wrap: đúng với ý 3
+
+word-break: break-all chạm dới hạng là xuống dòng sử dụng trong những dòng chữ dính liền nhau quá dài
+
+word-spacing: tăng khoảng cách giữa các TỪ
+ví dụ: word-spacing: 10px;
+
+text-shadow: tạo bóng đổ cho chữ
+Thuộc tính text-shadow bao gồm 4 giá trị:
+Giá trị đầu tiên sẽ quyết định bóng đổ sang bên trái hay bên phải. Nếu giá trị âm sẽ đổ sang trái, giá trị dương sẽ đổ sang phải.
+Giá trị thứ 2 quyết định bóng đổ lên trên hay xuống dưới. Giá trị âm sẽ đổ lên trên, giá trị dương sẽ đổ xuống dưới.
+Giá trị thứ 3 quyết định độ nhòe (blur) của bóng đổ.
+Giá trị cuối cùng là màu của bóng đổ.
+
+CÁCH HIỂN THỊ DẤU 3 chấm khi nội dung quá dài
+display: -webkit-box;
+  	-webkit-line-clamp: 4;
+  	-webkit-box-orient: vertical;
+  	overflow: hidden;
+
+cái số 4 kia là bạn muốn bắt đầu dấu 3 chấm khi nào đó

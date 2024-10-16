@@ -1,0 +1,22 @@
+/* width */ ===> chiều rộng của thanh cuộn
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */ ===> là phần đường cuộn
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */ ===> là phần thanh cầm của tay cuộn
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */ ===> là khi di chuột vào tay cầm cuộn thì đổi màu
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+=====> Nếu muốn chỉ định riêng cái phần nào sdung scroll thì chỉ việc thêm element trước nó
