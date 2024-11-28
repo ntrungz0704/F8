@@ -10,3 +10,15 @@
 - Kích thước thật của element
 nếu ko có padding or border thì kích thước sẽ là mặc định theo những gì bạn
 đặt CSS
+
+
+
+
+Box Model - Border: cú pháp
+border: <line-width> <line-style> <color>
+
+Các <line-style>
++ dashed : nét đứt
++ dotted : các chấm dot
++ double : 2 đường song song liền nhau
++ groove, ridge, inset, outset : viền 3D

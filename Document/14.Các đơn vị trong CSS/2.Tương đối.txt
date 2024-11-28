@@ -1,0 +1,6 @@
+Relative units
+Có tỉ lệ và phụ thuộc vào đối tượng khác
+Ví dụ
++ % ( phụ thuộc vào thẻ cha chứa nó )
++ vw, vh ( phụ thuộc vào kích thước của device )
++ em, rem ( đại diện cho các Font chữ )

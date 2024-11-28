@@ -1,0 +1,5 @@
+Xác thực đúng format thì mới gửi được
+thuộc tính trong thẻ input
+required ( có hoặc ko có cũng được khi bạn muốn dùng thì thêm vào )
+và cách xử lý pattern thì chỉ dành cho những cái cần đúng format
+như sdt, email, ...

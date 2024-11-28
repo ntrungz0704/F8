@@ -1,0 +1,28 @@
+<table>
+
+Được bao bọc bởi thẻ table
+bên trong chúng có 
+
+<thead>
+    giống thẻ header chiếm phần đầu của vị trí
+    <th>
+	nội dung ở bên trong
+    </th>
+</thead>
+
+Tiếp theo là phần thân
+ta có thẻ
+
+<tbody>
+     chứa nội dung bên trong phần thân ta dùng
+     <td>
+     	td viết tắt của table data ( dùng để chứa dữ liệu
+     </td>
+
+</tbody>
+
+</table>
+
+
+Lưu ý, 2 thuộc tính colspan và rowspan chỉ hoạt động 
+với thẻ <td> hoặc <th>.

@@ -1,0 +1,7 @@
+checkbox : dùng cho nhiều lựa chọn mà mình muốn chọn
+radio : dùng cho 1 lựa chọn duy nhất
+
+Để mà dùng checkbox: thì ta cho nhiều name của từng loại select khác nhau
+Để mà dùng radio: thì ta cho cùng 1 name là được
+
+Tùy vào câu hỏi thì sẽ sử dụng checkbox or radio

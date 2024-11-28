@@ -1,0 +1,18 @@
+1. ĐỊNH NGHĨA
+Là hiện tượng xảy ra hiện tượng DỌC( top - bottom )
+
+Ví dụ
+Thẻ ở trên ( margin-bottom: 50px; )
+Thẻ ở dưới ( margin-top: 50px; )
+
+=> Thì nó chỉ lấy 1 giá trị lớn nhất là 50px thôi chứ ko có cộng dồn vào
+
+2. TRƯỜNG HỢP XẢY RA
+- các thẻ con liền kề nhau, đứng cạnh nhau ( margin ngược chiều )
+- thẻ cha và thẻ con bên trong ( margin cùng chiều )
+
+
+CÁCH KHắc PHỤC
+- float: left/ right; ( dùng vào cả 2 thẻ có sử dụng margin )
+- position: absolute;
+- display: inline-block/ flex;

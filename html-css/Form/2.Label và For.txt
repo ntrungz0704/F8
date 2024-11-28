@@ -1,0 +1,18 @@
+<label for=""></label>
+
+=> LÀ nhãn dán giúp biết đc user đang nhập cái gì nhập đúng chỗ
+
+attribute "for" dùng để liên kết chính xác vào ô input muốn nhập
+
+Ví dụ
+<label for="username">Tên đăng nhập</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="nhập tên đăng nhập"
+      />
+
+
+Nghĩa là khi nào bạn click vào "Tên đăng nhập" thì nó sẽ tự động chuyển
+tới phần input có id = for là ( username )

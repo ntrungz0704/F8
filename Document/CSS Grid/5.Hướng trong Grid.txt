@@ -1,0 +1,25 @@
+Mặc định trong Grid:
+grid-auto-flow: row; ( giá trị mặc định ) 
+=> sẽ giúp tự động tạo ra 1 hàng mới khi có nhiều items hoặc items bị
+vượt quá số hàng đã chỉ định
+
+và
+grid-auto-flow: columns;
+=> sẽ hoàn toàn ngược lại với row sẽ tự động xin ra 1 cột mới khi có nhiều
+items hơn số cột đã chỉ định
+
+
+Khi customer ycau khi mà thêm các item vào Container
+thì nó sẽ di chuyển từ các hướng nào
+
+Vì vậy bạn phải biết để thực hiện dùng row hay columns cho đúng cách
+
+/*
+	
+	row: left -> right, top -> bottom;
+	columns: top -> bottom, left -> right;
+	Bạn cứ nhớ là khi dùng
+		row: ( hàng ) thì nó sẽ chạy hết hàng ngang đã chỉ định
+		columns: ( cột ) thì nó sẽ chạy từ trên xuống hết số cột 
+					đã được chỉ định
+*/

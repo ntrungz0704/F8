@@ -1,0 +1,24 @@
+Quy ước đặt tên class
+
+BEM : Block elements modifier
+Block : thẻ cha
+elements : thẻ con
+modifier: bổ sung ý nghĩa cho thẻ
+
+
+Cách đặt tên
+<!-- Syntax:
+		- Block: đặt tên như bth
+ 		- Element: nối tên của block__(tên element)
+		_ Modifier:
+				bổ sung được cả block or element
+				Block: block--modifier
+				Element: block__element--modifier
+-->
+
+
+
+Lợi ích
++ loại bỏ ID và tên thẻ trong CSS
++ gần như ko có xếp tầng nghĩa là phải vào từng class lớn -> nhỏ
++ các khối hoàn toàn độc lập và ko bị lỗi ko bị ghi đè

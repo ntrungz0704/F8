@@ -1,0 +1,30 @@
+Các thẻ Semantic trong HTML5
++ header (đầu trang, module)
+
++ nav (điều hướng chính của 1 trang web, 1 trang dùng nhiều thẻ nav 
+( điều hướng chính ) )
+
++ main (bọc nội dung chính của 1 trang ko bọc những nội dung lặp lại)
+
++ article (bọc nội dung trong trang ( mang tính độc lập ) ko liên quan
+đến thành phần xung quanh mang đi khắp nơi mang 1 thông tin riêng biệt)
+
+
++ section (thành phần khác nhau thì dùng section( ví dụ
+phần hiển thị, phần viết nội dung)
+
+
++++ có thẻ tiêu đề thì có thể dùng thẻ <article> or <section>
+
++ aside (nội dung bên lề , sidebar)
+
++ footer (chân trang, hoặc phần cuối của 1 phần độc lập)
+
++ figure (1 bài viết chứa hình ảnh video, âm thanh thì dùng thẻ này)
+
++ figcaption (chú thích của thẻ figure)
+
++ mark (đánh dấu 1 nội dung, 1 đoạn chữ gây chú ý)
+
+Dùng về mặt ngữ nghĩa ( nhìn tên thẻ biết nội dung thẻ chứa )
+Lợi ích: dễ đọc, tối ưu SEO (công cụ tìm kiếm) và web accessbility

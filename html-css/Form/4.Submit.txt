@@ -1,0 +1,25 @@
+1) Submit
+<input type="submit" value="Đăng nhập">
+
+type "submit"
+
+mặc định thẻ form sẽ có method="get"
+nếu để method="post" sẽ ko hiển thị trên địa chỉ browser nữa
+
+và lưu ý khi sử dụng các form là luôn luôn đặt name
+
+
+2) Buttons
+Có 2 cách để tạo ra nút submit
+
+<input type="submit" value="Đăng nhập" />
+
+<button type="submit">Đăng nhập</button>
+
+So sánh
+Vì button là thẻ mở & đóng nên có thể thêm được nhiều thẻ bên trong button
+Còn thẻ input là thẻ đóng nên hạn chế thêm dữ liệu và chỉ thêm đc value
+
+
+<input type="button" value="Đăng nhập"> ( cái này cũng tạo ra được )
+nhưng nó sẽ ko submit về data

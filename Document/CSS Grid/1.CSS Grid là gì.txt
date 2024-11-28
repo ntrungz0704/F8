@@ -1,0 +1,20 @@
+ĐỊNH NGHĨA: 
+Grid dựa trên hệ thống lưới gồm các hàng và cột. Các item được phân bổ 
+theo các cell trong grid, vì vậy có thể dễ dàng tạo ra các layout phức tạp
+hơn Flexbox với số lượng thẻ HTML tối thiểu.
+Có thể hiểu là Grid sẽ phân bổ các item đồng thời theo 2 hướng 
+ngang và dọc (row và column). Trong khi Flexbox sẽ phân bổ item 
+theo 1 hướng cụ thể, điều này được quyết định bởi flex-direction.
+
+
+Grid và Flexbox dùng // nhau kết hợp với nhau
+
+Grid: dàn bố cục trang web các thành phần chính
+Flexbox: các thành phần chính trong trang web
+
+
+
++ Grid cell: là từng ô trong 1 bố cục
++ Grid track: là 1 hàng or 1 cột
++ Grid line: là 1 đường kẻ dùng để phân chia ra nhiều ô cell
++ Grid area: là sự kết hợp của nhiều ô cell tạo thành HCN

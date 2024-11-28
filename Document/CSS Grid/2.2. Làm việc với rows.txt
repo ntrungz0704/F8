@@ -1,0 +1,3 @@
+Làm việc với rows:
++ chiều cao của các rows là "bằng nhau"
++ mỗi hàng là độc lập

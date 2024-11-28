@@ -1,0 +1,31 @@
+1) Textarea
+<form action="">
+  <label for="comment">Bình luận</label>
+  <br>
+  <textarea style="resize: none" name="comment" id="comment" ></textarea>
+</form>
+
+Thẻ textarea thường được sử dụng trong những phần có nội dung dài hoặc
+nhập liệu văn bản, chúng ta có thể tùy chỉnh kích thước của ô bằng css
+ví dụ: rows="5" cols="3" => 5 hàng và 3 cột
+
+
+2) <form action="">
+  <label for="address">Địa chỉ</label>
+  <br>
+  <select name="address" id="address">
+    <option value=""></option>
+    <option value="HN">Hà Nội</option>
+    <option value="HCM">Tp Hồ Chí Minh</option>
+    <option value="VT">Vũng Tàu</option>
+  </select>
+</form>
+
+bên trong thẻ select cũng có name, id như bth và bên trong chúng chứa
+1 thẻ option, 1 option = 1 sự lựa chọn thẻ select nào có value thì nó
+sẽ được submit lên data và lưu trữ
+
+
+so sánh radio & select
+radio : ít sự lựa chọn
+select : nhiều lựa chọn

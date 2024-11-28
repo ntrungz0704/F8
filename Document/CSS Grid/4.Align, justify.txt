@@ -1,0 +1,5 @@
+align-items: canh các items vs nhau theo chiều cao nội dung bên trong item
+align-content: canh giữa Container với các items
+
+justify-content: canh các item so với Container ( thẻ cha )
+justify-items: canh nội dung ở bên trong item

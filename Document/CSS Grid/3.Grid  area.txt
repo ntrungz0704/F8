@@ -1,0 +1,1 @@
+Grid area: là khu vực ở trong Grid và hiển thị ở các khu vực mà mình muốn

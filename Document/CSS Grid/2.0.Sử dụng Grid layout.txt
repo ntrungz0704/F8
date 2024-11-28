@@ -1,0 +1,26 @@
+/* Nếu muốn sử dụng Grid thì cũng giống như flex thêm vào thẻ cha chứa toàn bộ ndung */
+
+// từng kích thước được chỉ định là từng cột hoặc từng hàng muốn tạo ra
+
+.container {
+  /* Mặc định grid chỉ có 1 cột */
+  display: grid;
+
+  /* Để chỉ định số cột hay kích thước cột */  
+  grid-template-columns: 100px 150px 200px;
+
+  /* Để chỉ định số hàng hay kích thước hàng */
+  grid-template-rows: 60px 80px 60px 80px;
+
+  /* Lý do ko hiển thị ra được 4 hàng là bởi vì số lượng elements ko đủ nhưng nó vẫn chiếm ko gian */
+}
+
+
+Columns: 6 cột
+- grip-template-columns: 20px 40px;
+
+mà ở đây chỉ chị định kích thước cho 2 cột và bạn muốn các cột còn lại
+có kích thước mặc định như nhau
+===> grip-auto-columns: 60px; ( 4 cột còn lại sẽ là 60px )
+
+rows cũng giống vậy

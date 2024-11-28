@@ -1,0 +1,27 @@
+/* Nếu muốn sử dụng Grid thì cũng giống như flex thêm vào thẻ cha chứa toàn bộ ndung */
+
+.container {
+  /* Mặc định grid chỉ có 1 cột */
+  display: grid;
+
+  /* Để chỉ định số cột hay kích thước cột */
+  grid-template-columns: 100px 200px 300px;
+
+  /* Để chỉ định số hàng hay kích thước hàng */
+  grid-template-rows: 60px 80px;
+
+  grid-auto-rows: 200px;
+  /* Lý do ko hiển thị ra được 4 hàng là bởi vì số lượng elements ko đủ nhưng nó vẫn chiếm ko gian */
+
+}
+
+.item {
+  background: orange;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+
+.item-1 {
+  grid-row: 1 / 7;
+}

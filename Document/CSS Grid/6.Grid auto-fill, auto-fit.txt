@@ -1,0 +1,8 @@
+auto-fill: sẽ luôn cố gắng để đưa được nhiều cột nhất thành 1 hàng, cho
+dù ko có items thì nó vẫn sẽ tạo ra nhiều cột để lắp đầy thiết bị nếu có
++ tự tạo ra cột trống
+
+
+auto-fit: cố gắng để các items vừa vặn fit lại so với kích thước với
+Container ( và dùng giá trị 1fr )
++ ko tạo ra cột trống

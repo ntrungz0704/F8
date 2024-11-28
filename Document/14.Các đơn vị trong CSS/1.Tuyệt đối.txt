@@ -1,0 +1,6 @@
+Absolute units
+Giá trị hiển thị chính xác, cố định
++ px
++ mm
++ cm
++ v.v
