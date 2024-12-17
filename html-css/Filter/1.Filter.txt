@@ -1,0 +1,11 @@
+1) Sẽ thường được dùng với hình ảnh nhưng nói chung dùng vs bất cứ cái nào
+cũng được
+
+filter: blur(px); : Làm mờ
+filter: brightness(%) : Độ sáng
+filter: contrast(%) : Tương phản
+filter: grayscale(%) : Tạo ra hình đen trắng
+filter: hue-rotate(deg) : Thay đổi độ màu 360deg
+filter: invert(%) : Đảo ngược màu
+filter: opacity(%) : Hiển thị
+filter: saturate(%) : Đỗ bão hòa

@@ -1,0 +1,13 @@
+Drop-Shadow:
+drop-shadow là một bộ lọc CSS được sử dụng để thêm bóng đổ cho các phần 
+tử như hình ảnh, SVG, hoặc văn bản.
+Nó có khả năng tạo ra bóng đổ phức tạp và mềm mại hơn.
+
+filter: drop-shadow([h-offset] [v-offset] [blur] [color]);
+
++ h-offset: Khoảng cách ngang của bóng đổ.
++ v-offset: Khoảng cách dọc của bóng đổ.
++ blur: Độ mờ của bóng đổ.
++ color: Màu của bóng đổ.
+
+Ví dụ: filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));

@@ -1,0 +1,23 @@
+Là hiệu ứng chuyển tiếp thường phổ biến và áp dụng thay đổi màu nền hover
+
+1) Thuộc tính cơ bản
+Thuộc tính muốn transition
+transition-property: background-color;
+
+Thuộc tính time transition
+transition-duration: 500ms;
+
+Cú pháp shorthand
+trasition: background-color 500ms;
+
+
+2) Transition-delay;
+Nó sẽ delay time trước khi hiệu ứng xảy ra
+
+
+3) Transition-timing-function;
+ease : mặc định
+linear : gia tốc ko đổi/ ko tăng tốc
+ease-in : bắt đầu chậm kết thúc nhanh
+ease-out : bắt đầu nhanh kết thúc chậm
+ease-in-out : bắt đầu & kết thúc chậm ( ở giữa nhanh )

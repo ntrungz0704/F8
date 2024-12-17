@@ -1,0 +1,15 @@
+Thường đc sdung vs transition & animations
+
+
+X || Y
++ rotate : xoay (deg)
++ scale : thu to phóng nhỏ (1.0)
++ skew : làm nghiêng (deg(x), deg(y))
++ translate : khoảng cách (px) || (%)
+
+Mặc định:
+transform-origin: center;
+// Nên khi muốn scale vào 1 góc nào đó thì hãy để khác đi 1 chút
+Ví dụ muốn ở trên bên phải thì
+transform-origin: top right;
+HOẶC có thể để giá trị tuyệt đối: 100% 100% || X Y

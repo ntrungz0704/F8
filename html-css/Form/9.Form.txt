@@ -1,0 +1,14 @@
+:placeholder-shown: ( sẽ chọn được các input || textarea có placeholder
+đang hiển thị )
+
+:focus-within: ( sẽ chọn những thẻ cha bên trong thẻ cha đó có những thẻ
+được focus ) ( within - bên trong )
+
+tabindex ( dùng khi ta ấn tab nó sẽ nhảy đến ô input mà chúng ta muốn )
+code tabindex="stt"
+
+caret-color ( dùng để đổi con nháy để nhập chữ )
+
+Form legend {
+dùng thẻ <fieldset> bao bọc các thẻ label & input
+đầu thẻ label || input ( ta thêm <legend> Rồi nhập phần heading )

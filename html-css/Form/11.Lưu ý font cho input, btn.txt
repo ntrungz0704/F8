@@ -1,0 +1,8 @@
+input, textarea, select, button ( sẽ dùng font chữ mặc định )
+
+
+Ta dùng cách này là được ( và nếu muốn thay đổi font ta chỉ thay lên body )
+input, textarea, select, button {
+  font-size: inherit;
+  font-family: inherit;
+}

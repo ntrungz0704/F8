@@ -1,0 +1,13 @@
+1) Box-Shadow:
+box-shadow là một thuộc tính CSS được sử dụng để thêm bóng đổ vào các 
+phần tử, đặc biệt là các phần tử khối như div, p, v.v.
+
+box-shadow: [h-offset] [v-offset] [blur] [spread] [color] [inset];
++ h-offset: Khoảng cách ngang của bóng đổ.
++ v-offset: Khoảng cách dọc của bóng đổ.
++ blur: Độ mờ của bóng đổ.
++ spread: Độ rộng của bóng đổ.
++ color: Màu của bóng đổ.
++ inset: Tạo bóng đổ bên trong (tuỳ chọn).
+
+Ví dụ: box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
