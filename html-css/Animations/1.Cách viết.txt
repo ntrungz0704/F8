@@ -1,0 +1,19 @@
+Sử dụng animations khi mà vừa truy cập vào trang web đã thì đã tự động
+có hiệu ứng mà ko cần hover giống như là transition
+
+Cách làm
+1) Định nghĩa giống như đặt tên biến var()
+@keyframes <name-animations>
+
+Ví dụ:
+@keyframes spinner {
+  from{
+    rotate: 0;
+  }
+  to{
+    rotate: 360deg;
+  };
+}
+
+From và to là 2 điểm bắt đầu và kết thúc của Animations đó trong dấu {}
+của from và to có thể viết mọi thuộc tính Css miễn là có support Animation

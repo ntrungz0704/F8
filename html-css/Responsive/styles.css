@@ -1,0 +1,72 @@
+/* Từ 500px đổ lên sẽ có màu cam */
+/* @media screen and (orientation: portrait) {} xoay dọc
+   @media screen and (orientation: landscape) {} xoay ngang
+*/
+
+/* Cách phân biệt khi dùng min || max
+    min-width: là lớn hơn hoặc bằng >= ( là tối thiểu )
+    nax-width: là bé hơn hoặc bằng <= ( là tối đa )
+*/
+
+/* Breakpoints là gì
+    Là những điểm dừng phân biệt đâu là device tablet, pc, mobile
+
+    <=768 : được coi là điện thoại
+    >=768 and <992 : được coi là máy tính bảng
+    >=992 and <=1200 : được coi là PC
+*/
+
+/* 
+    - min(value1, value2, vv) trả về giá trị nhỏ nhất : đặt giá trị tối đa
+    - max(value1, value2, vv) trả về giá trị lớn nhất : đặt giá trị tối thiểu
+    - clamp(min, ideal, max) ideal: giá trị lý tưởng
+    clamp: nếu giá trị trả ra nhỏ hơn min => lấy min
+    HẦU hết sẽ nằm ở giữa min && max => ưu tiên lấy ideal
+    clamp: nếu giá trị trả ra lớn hơn max => lấy max
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: clamp();
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: orange;
+}
+
+h2 {
+  color: #fff;
+  display: none;
+}
+
+/* Breakpoints PC */
+@media screen and (min-width: 992px) {
+  .pc {
+    display: block;
+  }
+}
+
+/* Breakpoints tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tablet {
+    display: block;
+  }
+}
+
+/* Breakpoints mobile */
+@media screen and (max-width: 767px) {
+  .mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,26 @@
+Muốn sử dụng được animation sau khi viết ở trên xong ta phải gọi nó ra
+vào nơi muốn sử dụng animation
+
+Ví dụ:
+
+.box {
+  animation-name: spinner;
+  animation-duration: 1s;
+  animation-iteration-count: 1; // giá trị mặc định
+  animation-timing-function: ease; // giá trị mặc định
+  animation-delay: 2s; // time trì hoãn
+  animation-diretion: normal; // hướng mặc định từ from -> to (trái > phải)
+}
+
+Cái bắt buộc phải có là animation-name & animation-duration
+- animation-iteration-count: // Nghĩa là số lần lặp lại của animation đó
+
+Ví dụ: animation-iteration-count: 2; // lặp lại 2 lần
+animation-iteration-count: infinite; // lặp lại vô hạn
+
+Còn animation-timing-function: ease; // nó giống như định nghĩa bên trans
+
+animation-direction: reverse; // chạy ngc lại từ to -> from (phải > trái)
+animation-direction: alternate; // xoay from > to rồi to > from
+animation-direction: alternate-reverse; // ngc lại 
+Muốn dùng được cái alternate thì animation đó phải lặp lại ít nhất 1 lần

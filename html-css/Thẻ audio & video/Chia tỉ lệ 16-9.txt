@@ -1,0 +1,1 @@
+Lấy chiều cao / chiều rộng * 100% đặt làm chiều cao

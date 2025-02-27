@@ -1,0 +1,19 @@
+animation-name: <name animation>; // Luôn luôn phải có
+animation-duration: 1s;
+animation-iteration-count: 1; // giá trị mặc định
+			 : infinite; // lặp lại vô hạn
+
+animation-timing-function: ease; // giá trị mặc định
+			 : linear //
+			 :ease-in // bắt đầu chậm kết thúc nhanh
+			 :ease-out // bắt đầu nhanh kết thúc chậm
+			 :ease-in-out // bắt đầu & kết thúc chậm ( ở giữa nhanh )
+
+animation-delay: 2s; // time trì hoãn
+animation-diretion: normal; // hướng mặc định từ from -> to (trái > phải)
+		  : reverse; // xoay ngược lại chiều từ to -> from
+		  : alternate; // xoay 2 lần xuôi rồi ngược
+		  : alternate-reverse; // Xoay 2 lần ngược rồi xuôi
+
+animation-fill-mode: forwards; // khi thực hiện hiệu ứng xong trả về vtri ( to ) // xài
+		   : backwards; // trả về vtri (from) // ít xài

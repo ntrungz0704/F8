@@ -1,0 +1,16 @@
+@keyframes spinner {
+  0% {
+    
+  }
+  25% {
+    
+  }
+  75% {
+    
+  }
+  100% {
+    
+  };
+}
+
+//Có thể dùng % để thay cho from to nếu muốn animation detail và smooth

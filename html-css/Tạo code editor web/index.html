@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 18px;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        height: 100%;
+        padding: 24px;
+      }
+
+      .editor,
+      .browser {
+        border: 5px solid black;
+      }
+      .browser {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Code editor -->
+      <textarea
+        name=""
+        id="editor"
+        class="editor"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <!-- Browser -->
+      <div>
+        <iframe id="browser" class="browser" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <!-- Code JS -->
+    <script>
+      const editor = document.querySelector("#editor");
+      const browser = document.querySelector("#browser");
+
+      editor.oninput = function (e) {
+        // console.log(e.target.value);
+        browser.srcdoc = e.target.value;
+
+        // Khi viết dòng lệnh này thì khi ta viết vào hàm e được đặt tên biến cho #editor thì nó sẽ lưu thành value và value đó đẩy trên #browser dưới dạng srcdoc
+      };
+    </script>
+  </body>
+</html>
